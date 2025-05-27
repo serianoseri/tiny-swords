@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://21u5oyupphqp"]
+[gd_scene load_steps=8 format=3 uid="uid://21u5oyupphqp"]
 
+[ext_resource type="Script" uid="uid://bohgjj17uu0c6" path="res://Scenes/Levels/main.gd" id="1_nk5xi"]
 [ext_resource type="PackedScene" uid="uid://col805xvqlq1e" path="res://Scenes/Player/player.tscn" id="1_s0gyx"]
 [ext_resource type="Texture2D" uid="uid://4swthdfb0q75" path="res://Assets/Terrain/Water/Water.png" id="1_yjsus"]
 [ext_resource type="Texture2D" uid="uid://cacuhu8btc2sc" path="res://Assets/Terrain/Ground/Tilemap_Flat.png" id="2_u872a"]
@@ -552,6 +553,7 @@ sources/1 = SubResource("TileSetAtlasSource_u872a")
 sources/3 = SubResource("TileSetAtlasSource_nk5xi")
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_nk5xi")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
