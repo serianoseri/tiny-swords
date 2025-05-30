@@ -230,6 +230,7 @@ speed = 300
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = ExtResource("2_mtuoh")
 animation = &"idle"
+frame_progress = 0.95769
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 visible = false
